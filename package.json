@@ -1,0 +1,26 @@
+{
+  "name": "fastify-example-tests-new",
+  "version": "1.0.0",
+  "description": "> Cypress tests to fill to check the [fastify-example](https://github.com/bahmutov/fastify-example) application",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "print": "find-cypress-specs --names"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/fastify-example-tests-new.git"
+  },
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/fastify-example-tests-new/issues"
+  },
+  "homepage": "https://github.com/bahmutov/fastify-example-tests-new#readme",
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "find-cypress-specs": "^1.29.4",
+    "prettier": "^2.8.4"
+  }
+}

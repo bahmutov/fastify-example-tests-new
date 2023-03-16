@@ -11,7 +11,6 @@ it('hides API calls we are not interested in', () => {
   //  figure out the best strategy for hiding the calls
   //  we are not interested in (like "POST /track")
   //  1: hide only the "POST /track" calls
-  //  cy.intercept('POST', '/track', { log: false })
   //  2: hide all fetch API calls
   // https://on.cypress.io/intercept
   cy.visit('/calculator.html')

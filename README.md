@@ -8,7 +8,7 @@ The public repository has test placeholders to be filled by the actual Cypress c
 
 ## Requirements
 
-- Node.js >= 16 check with `node -v`
+- Please use Node version specified in the [.nvmrc](./.nvmrc) file in this repository. If you use [NVM](https://github.com/nvm-sh/nvm), you can simply execute `nvm use` in the current folder before installing and running the server.
 - clone the example application repo [fastify-example](https://github.com/bahmutov/fastify-example), install its dependencies and start the application. It should be running at `localhost:4200`
 
 ## Install

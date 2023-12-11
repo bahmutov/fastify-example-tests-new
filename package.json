@@ -20,7 +20,7 @@
   "homepage": "https://github.com/bahmutov/fastify-example-tests-new#readme",
   "devDependencies": {
     "cy-spok": "^1.6.1",
-    "cypress": "^12.13.0",
+    "cypress": "^13.6.1",
     "cypress-cdp": "^1.3.0",
     "cypress-map": "^1.19.0",
     "fast-querystring": "^1.1.1",

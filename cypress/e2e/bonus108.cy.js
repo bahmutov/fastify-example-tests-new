@@ -17,7 +17,8 @@ it('shows rounded float sent by the server', () => {
   //
   // the number should be between 0 and 1
   //
-  // the page should show a number in the format "0.<digit>"
+  // the page should show a number in the format
+  // "0.<digit>" or "1.<digit>"
   // https://on.cypress.io/contains
   //
   // grab its inner text by invoking the jQuery method "text"

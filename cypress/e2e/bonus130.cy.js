@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 /**
  * Queries the cy.state() object to find the network intercept
  * with the given alias. Then looks at the number of requests

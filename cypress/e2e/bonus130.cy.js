@@ -98,4 +98,7 @@ it('resets the waiting requests', () => {
   // reset the number of pending requests to "calculate"
   //
   // and confirm no requests are pending
+  //
+  // check if the number of total requests is 3
+  // using cy.get('@calculate.all') command
 })

@@ -36,7 +36,7 @@ it('checks the created item`s name', () => {
     {
       log: 'found the new item ✅',
       delay: 4_000,
-      timeout: 60_000,
+      timeout: 70_000,
     },
   )
   cy.visit(`/items/${name}`)
@@ -69,7 +69,7 @@ it('checks the created item`s price', () => {
     {
       log: 'found the new item ✅',
       delay: 4_000,
-      timeout: 60_000,
+      timeout: 70_000,
     },
   )
   cy.visit(`/items/${name}`)

@@ -42,6 +42,7 @@ function checkItem(name) {
 function createItem(item) {
   // TODO: finish the test
   // use cypress-recurse to try creating the item
+  // using the flaky API endpoint "POST /add-item-flaky"
   // then call the checkItem function to confirm
   // that the item has been created and can be found
   // the function "checkItem" yields a boolean

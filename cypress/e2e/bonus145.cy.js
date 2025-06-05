@@ -17,4 +17,7 @@ it('checks if the app sends the analytics event "purchase"', () => {
   // with the "eventId" property
   // at the end, the subject is an array of strings
   // which should include the string "purchase"
+  //
+  // Bonus: confirm that the found network call
+  // has the string "itemId" value that starts with "0X"
 })

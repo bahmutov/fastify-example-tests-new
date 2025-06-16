@@ -4,6 +4,17 @@
 // in this array
 const apiCalls = []
 
+before(() => {
+  // need to visit the page
+  // for the application domain to be set correctly
+  cy.visit('/')
+
+  // confirm the server is running
+  cy.request('/delay/1').then(async () => {
+    await fetch('/delay/100')
+  })
+})
+
 it('detects slow API requests', () => {
   // spy on all network calls made by the application
   // (you can also limit the spy to the calls you are interested in)

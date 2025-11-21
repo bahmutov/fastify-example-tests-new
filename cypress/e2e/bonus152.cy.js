@@ -3,7 +3,7 @@
 describe('Adding two numbers', () => {
   it('verifies the server data and controls the numbers received by the page', () => {
     // change the plain network stub to first verify the server response
-    // - a single object with a single property "n" containing a number between 1 and 10
+    // - a single object with a single property "n" containing a number between 0 and 10
     // then return "known" numbers for the two requests
     cy.intercept(
       {
